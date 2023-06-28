@@ -1,0 +1,53 @@
+body {
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+body h1 {
+    font-family: 'Belanosima', sans-serif;
+    text-align: center;
+}
+#container {
+    height: fit-content;
+    overflow: auto;
+    text-align: center;
+}
+
+#container * {
+    display: inline-block;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 0 0 20px 20px;
+    margin: 10px;
+}
+
+.elem {
+    height: 200px;
+    background-size: 200% 200%;
+    width: 200px;
+    transition: background-position 500ms;
+    /* text-align: center; */
+    cursor: pointer;
+    /* margin: 20px; */
+}
+
+.red {
+    background-image: linear-gradient(to top, red 50%, transparent 50%);
+}
+
+.pink {
+    background-image: linear-gradient(to top, pink 50%, transparent 50%);
+}
+
+.purple {
+    background-image: linear-gradient(to top, purple 50%, transparent 50%);
+}
+
+.green{
+    background-image: linear-gradient(to top, green 50%, transparent 50%);
+}
+
+.blue{
+    background-image: linear-gradient(to top, royalblue 50%, transparent 50%);
+}
