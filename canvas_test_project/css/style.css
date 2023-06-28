@@ -1,34 +1,5 @@
 body{
-    margin: 10;
-}
-#products {
-    display: grid;
-    grid-template-columns: auto 200px 200px auto;
-    grid-template-rows: auto 100px;
-    grid-gap: 10px;
-    height: 200px;
-}
-
-#nav-top {
-    display: block;
-    align-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #bbb;
-}
-.nav-item {
-    float: left;
-}
-
-.nav-item a{
-    display: block;
-    padding: 8px;
-    background-color: #aaa;
-}
-
-.red-form{
-    background-color: red;
+    margin: 0px;
 }
 
 #my-canvas{
@@ -40,10 +11,8 @@ body{
     background-color: aqua;
     display: grid;
     height: 80px;
-    grid-template-columns: repeat(15, 1fr)
+    grid-template-columns: repeat(15, auto)
 }
 #colors * {
     border: 3px solid black;
-    height: 100%;
-    /* width: 15%; */
 }
